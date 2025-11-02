@@ -25,8 +25,6 @@ Antes de instalar el proyecto, asegúrate de tener:
 pgAdmin 4 
 
 
- 
-Estructura del Proyecto
 proyecto-completo/
 ├── backend-usuarios/          # API REST (Backend)
 │   ├── db.js
@@ -43,6 +41,7 @@ proyecto-completo/
     ├── public/
     ├── package.json
     └── README.md
+
 
 ## Instalación del Proyecto Completo
 Clonar el Repositorio
