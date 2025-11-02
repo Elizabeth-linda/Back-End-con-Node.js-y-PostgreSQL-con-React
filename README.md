@@ -25,7 +25,7 @@ Antes de instalar el proyecto, asegúrate de tener:
 pgAdmin 4 
 
 
-
+ 
 Estructura del Proyecto
 proyecto-completo/
 ├── backend-usuarios/          # API REST (Backend)
