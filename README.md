@@ -4,7 +4,7 @@
 
 Proyecto completo que combina un frontend en React con un backend en Node.js y PostgreSQL, permitiendo el registro y gestión de usuarios.
 
-##Descripción General
+## Descripción General
 
 El sistema “Formulario al Ritual” está compuesto por:
 
@@ -46,22 +46,22 @@ proyecto-completo/
     ├── package.json
     └── README.md
 
-##Instalación del Proyecto Completo
+## Instalación del Proyecto Completo
 Clonar el Repositorio
 ```bash
 git clone https://github.com/Elizabeth-linda/Formulario-al-ritual.git
 cd Formulario-al-ritual
 ```
 
-##Configuración del Backend (API REST)
-##Servidor básico con Express
+## Configuración del Backend (API REST)
+## Servidor básico con Express
 
 Inicializar el proyecto:
 ```bash
 npm init -y
 ```
 
-##Instalar dependencias:
+## Instalar dependencias:
 
 ```bash
 npm install express cors pg
@@ -82,7 +82,7 @@ app.get('/', (req, res) => {
 app.listen(3000, () => console.log(' Servidor en http://localhost:3000'));
 ```
 
-##Base de datos PostgreSQL
+## Base de datos PostgreSQL
 
 Crear base de datos:
 ```bash
@@ -115,7 +115,7 @@ const pool = new Pool({
 module.exports = pool;
 ```
 
-##API REST CRUD
+## API REST CRUD
 
 Endpoint GET /usuarios
 ```bash
@@ -141,13 +141,13 @@ app.post('/usuarios', async (req, res) => {
 });
 ```
 
-##Probar con Postman:
+## Probar con Postman:
 
 GET → http://localhost:3000/usuarios
 
 POST → http://localhost:3000/usuarios
 
-##Configuración del Frontend (React)
+## Configuración del Frontend (React)
 Instalación
 ```bash
 cd formulario-aquelarre
