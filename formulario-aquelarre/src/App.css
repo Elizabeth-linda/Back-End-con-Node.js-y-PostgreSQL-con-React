@@ -1,0 +1,90 @@
+/*Contenedor*/
+.container {
+  background: linear-gradient(145deg, #1a0000, #330000);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+  text-align: center;
+  width: 100%;
+  max-width: 400px; 
+  box-sizing: border-box;
+}
+
+/*H1 formulario*/
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  color: #cc0000;
+  margin-bottom: 25px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #990000, 0 0 12px #330000;
+}
+
+/*Formulario*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  font-size: 14px;
+  color: #ff3333;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #660000;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #f0f0f0;
+}
+
+input:focus {
+  outline: 2px solid #cc0000;
+}
+
+/*Botón*/
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #cc0000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #990000;
+  transform: scale(1.05);
+}
+
+/*Media Queries para dispositivos pequeños*/
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  input, button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Estilos para errores */
+.error {
+  border: 2px solid #ff3333 !important;
+}
+
+.error-message {
+  color: #ff3333;
+  font-size: 12px;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+}
