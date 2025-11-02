@@ -47,7 +47,7 @@ proyecto-completo/
 ## Instalación del Proyecto Completo
 Clonar el Repositorio
 ```bash
-git clone https://github.com/Elizabeth-linda/Formulario-al-ritual.git
+git https://github.com/Elizabeth-linda/Back-End-con-Node.js-y-PostgreSQL-con-React.git
 cd Formulario-al-ritual
 ```
 
