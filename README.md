@@ -12,9 +12,7 @@ Frontend (React): Formulario con validaciones y diseño temático para el regist
 
 Backend (Node.js + Express + PostgreSQL): API REST que gestiona la creación, consulta y almacenamiento de los usuarios registrados.
 
-Ambos componentes trabajan en conjunto para ofrecer una experiencia completa, moderna y funcional.
-
-##Requisitos Previos
+## Requisitos Previos
 
 Antes de instalar el proyecto, asegúrate de tener:
 
